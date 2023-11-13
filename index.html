@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Party Planner</h1>
+
+  <h2>Upcoming Parties</h2>
+  <ul id="party-list">
+    <!-- Parties will be dynamically added here -->
+  </ul>
+
+  <h2>Schedule a New Party</h2>
+  <form id="party-form">
+    <label for="party-name">Name:</label>
+    <input type="text" id="party-name" required><br>
+
+    <label for="party-date">Date:</label>
+    <input type="date" id="party-date" required><br>
+
+    <label for="party-time">Time:</label>
+    <input type="time" id="party-time" required><br>
+
+    <label for="party-location">Location:</label>
+    <input type="text" id="party-location" required><br>
+
+    <label for="party-description">Description:</label>
+    <textarea id="party-description" required></textarea><br>
+
+    <button type="submit">Schedule Party</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
